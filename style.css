@@ -1,0 +1,228 @@
+/*---FONDOS---*/
+#index{
+background-image: url(museo1.jpg);
+background-size: cover;
+background-repeat:no-repeat;
+margin: 0;
+margin-bottom: 40px;
+
+}
+#info{
+  background-image: url(museo1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display:block;
+  width: 100%;
+}
+#inicio-sesion{
+  background-image: url(fondo-inicio-sesion.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display:block;
+  width: 100%;
+}
+#registrarse{
+  background-image: url(fondo-registrarse.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display:block;
+  width: 100%;
+}
+#mapa{
+  background-image: url(fondo-mapa.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display:block;
+  width: 100%;
+}
+#turnos{
+  background-image: url(fondo-registrarse.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display:block;
+  width: 100%;
+}
+/*------------*/
+
+/*Inicio sesion y Registro*/
+.login{
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 17px;
+    width: max-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*------------------------*/
+
+/*---Estructura Index---*/
+.izquierda{
+  flex: 1;
+  text-align: center;
+  background:#ffffff;
+  opacity: 0.3;
+  height: auto;
+  width: max-content;
+  border-radius: 3px;
+  padding: auto;
+}
+.derecha{
+  flex: 2;
+  margin: auto;
+  width: 75%;
+  height:max-content;
+  padding: auto;
+}
+#pantalla-dividida{
+  display: flex;
+
+}
+#texto1{
+  background: black;
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+/*--------------------*/
+
+/*---Estructura Mapa---*/
+.division1{
+  flex: 1;
+  padding: 25px
+  }
+.division1{
+  flex: 2;
+  padding: 25px;
+  }
+.division1 div{
+  margin:auto;
+  padding: 25px;
+  }
+#pantalla-dividida1{
+  display: flex;  
+  flex-wrap: wrap;
+  }
+/*---------------------*/
+
+/*---Estructura Turnos---*/
+#tvg{
+  font-weight:bold;
+  text-align: center;
+  font-size: 20px;
+}
+.tturnos{
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding: 17px;
+  margin: auto;
+  width: max-content;
+  height: max-content;
+  text-align: center;
+  }
+  
+#Columna-Principal{
+  background: #0d6efd;
+  color: #ffffff;
+}
+#boton_turno{
+  border-radius: 5px;
+  padding: 15px;
+  color: white;
+  background-color:#0d6efd;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+/*-----------------------*/
+
+/*---Estructura Info---*/
+.division{
+  flex: 1;
+  }
+  .division{
+    flex: 2;
+    }
+    .division{
+      flex: 1;
+      }
+.division:first-child{
+  flex: 2;
+  padding: 25px;
+  
+  background-color: #fff;
+  opacity: 0.3;
+  border-radius: 5px;
+  border: 3px solid rgb(0, 0, 0);
+  }
+.division div{
+  padding: 25px;
+  background-color: #fff;
+  opacity: 0.3;
+  border-style:inherit ;
+  border: 3px solid rgb(0, 0, 0);
+  }
+#pantalla-dividida{
+  display: flex;  
+  flex-wrap: wrap;
+  margin: 15px;
+  }
+/*---------------------*/
+html{
+  min-height: 100%;
+  position: relative;
+}
+.creative{
+  margin: auto;
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+  line-height: 30px;
+  font-size: 40px;
+}
+h1{
+  font-size: 60px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+p{
+  color: rgb(0, 0, 0);
+  font-size: 19px;
+  line-height: 25px;
+  margin: auto;
+}
+#leer-mas {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 15px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border-radius: 30px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 30px;
+}
+#texto{
+  background-color: white;
+  border-color: white;
+  border: 1px solid rgb(0, 0, 0);
+  color: black;
+}
+#carusel{
+  border: 5px solid rgb(0, 0, 0);
+}
+footer{
+  text-align: center;
+  background-color: #0d6efd;
+  position:absolute;
+  bottom:0px;
+  width: 100%;
+  height: 40px;
+}
+header{
+position:  relative;
+margin: auto
+
+}
+
+
